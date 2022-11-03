@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Kolker+Brush&display=swap');
+body{
+    background-color: bisque;
+    text-align: center;
+    margin: 0;
+    background-image: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg');
+    background-size: cover;
+}
+.menu{
+    position: fixed;
+    background-color: aqua;
+    width: 100%;
+    margin-top: 0px;
+}
+.links{
+    display: inline;
+    font-size: 20px;
+    padding-left: 30px;
+    padding: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px;
+}
+/*pseudo class - is a particular style while mouse hover , mouse clicks etc. - selector : pseudo class{property: value;}*/
+a:hover{
+    font-size: 30px;
+    text-decoration: underline;
+}
+html{
+    scroll-behavior: smooth;
+}
+.profile{
+    margin-top: 100px;
+    width:500px;
+}
+#name{
+    font-family: 'Island Moments', cursive;
+    font-family: 'Kolker Brush', cursive;
+}
+#welcome{
+    background: linear-gradient(to right, red, green);
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact_1 a{
+    text-shadow: none;
+    color: white;
+}
+.contact_1 h3{
+    display: inline;
+}
